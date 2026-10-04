@@ -1,46 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1785512919
-<< checkpaint >>
-rect 8116 7500 12788 500550
-rect 6814 6796 12788 7500
-rect 14210 8286 19886 8370
-rect 21115 8286 25787 501616
-rect 14210 6796 25787 8286
-rect 6150 2871 38542 6796
-rect 6140 648 38542 2871
-rect 6078 -2920 38542 648
-rect 6078 -3100 36507 -2920
-rect 6078 -3762 21476 -3100
-rect 21727 -3160 36507 -3100
-rect 23983 -3220 36507 -3160
-rect 24479 -3280 36507 -3220
-rect 24975 -3340 36507 -3280
-rect 27231 -3400 36507 -3340
-rect 27727 -3460 36507 -3400
-rect 28223 -3520 36507 -3460
-rect 29839 -3580 36507 -3520
-rect 31455 -3640 36507 -3580
-rect 31951 -3700 36507 -3640
-rect 6402 -3848 21476 -3762
-rect 6936 -3934 21476 -3848
-rect 7470 -4020 21476 -3934
-rect 7780 -4106 21476 -4020
-rect 8116 -4166 21476 -4106
-rect 8728 -4226 21476 -4166
-rect 10344 -4286 21476 -4226
-rect 11960 -4346 21476 -4286
-rect 12456 -4406 21476 -4346
-rect 12952 -4466 21476 -4406
-rect 13448 -4526 21476 -4466
-rect 13944 -4586 21476 -4526
-rect 14440 -4646 21476 -4586
-rect 14936 -4706 21476 -4646
-rect 15432 -4766 21476 -4706
-rect 15928 -4826 21476 -4766
-rect 16424 -4886 21476 -4826
-rect 16920 -4946 21476 -4886
+timestamp 1783113312
 << nwell >>
 rect 18190 5723 20986 5760
 rect 24440 5730 26596 5780
@@ -2454,9 +2415,9 @@ use cap_mim_2p0fF_U8GDWG  cap_mim_2p0fF_U8GDWG_0 primitives
 timestamp 1783110992
 transform -1 0 23243 0 1 5430
 box -13003 -4720 14785 5356
-use diode_nd2ps_03v3_7ZNAWU  D1
-timestamp 0
-transform 1 0 8283 0 1 -1557
+use diode_nd2ps_03v3_E3DKMC  D1 primitives
+timestamp 1783013678
+transform 1 0 9019 0 1 5295
 box -205 -205 205 205
 use gf180mcu_as_sc_mcu7t3v3__fillcap_4  gf180mcu_as_sc_mcu7t3v3__fillcap_4_0 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
 timestamp 1751532246
@@ -2466,25 +2427,9 @@ use gf180mcu_as_sc_mcu7t3v3__fillcap_4  gf180mcu_as_sc_mcu7t3v3__fillcap_4_1
 timestamp 1751532246
 transform 1 0 31136 0 -1 6555
 box -86 -86 534 870
-use gf180mcu_as_sc_mcu7t3v3__fillcap_4  gf180mcu_as_sc_mcu7t3v3__fillcap_4_2
-timestamp 1751532246
-transform 1 0 8488 0 1 -1762
-box -86 -86 534 870
-use gf180mcu_as_sc_mcu7t3v3__fillcap_4  gf180mcu_as_sc_mcu7t3v3__fillcap_4_3
-timestamp 1751532246
-transform 1 0 9022 0 1 -1848
-box -86 -86 534 870
 use gf180mcu_as_sc_mcu7t3v3__tap_2  gf180mcu_as_sc_mcu7t3v3__tap_2_0 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
 timestamp 1759751540
 transform 1 0 34832 0 -1 6555
-box -86 -86 310 870
-use gf180mcu_as_sc_mcu7t3v3__tap_2  gf180mcu_as_sc_mcu7t3v3__tap_2_1
-timestamp 1759751540
-transform 1 0 9556 0 1 -1934
-box -86 -86 310 870
-use gf180mcu_as_sc_mcu7t3v3__tap_2  gf180mcu_as_sc_mcu7t3v3__tap_2_2
-timestamp 1759751540
-transform 1 0 9866 0 1 -2020
 box -86 -86 310 870
 use nfet_03v3_EENGZV  nfet_03v3_EENGZV_0 primitives
 timestamp 1783098882
@@ -2518,14 +2463,6 @@ use ppolyf_u_1k_FPWM3N  ppolyf_u_1k_FPWM3N_0 primitives
 timestamp 1783041785
 transform 1 0 22336 0 1 9558
 box -14196 -2858 14196 2858
-use por_amp  x1
-timestamp 1783037369
-transform 1 0 6960 0 1 1073
-box 1180 -1993 8344 -202
-use por_3v3_schmitt_inv  x2
-timestamp 1783112130
-transform 1 0 13720 0 1 575
-box 1584 -1495 4943 317
 use gf180mcu_as_sc_mcu7t3v3__buff_12  x3 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
 timestamp 1751664855
 transform 1 0 32144 0 1 4987
@@ -2542,114 +2479,22 @@ use gf180mcu_as_sc_mcu7t3v3__inv_4  x6 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3
 timestamp 1751633659
 transform 1 0 31360 0 1 4987
 box -86 -86 870 870
-use nfet_03v3_A2Q5US  XM1
-timestamp 0
-transform 1 0 19761 0 1 -720
-box -1158 -260 1158 260
-use pfet_03v3_RURBBV  XM2
-timestamp 0
-transform 1 0 22017 0 1 -780
-box -1158 -260 1158 260
-use pfet_03v3_RURBBV  XM3
-timestamp 0
-transform 1 0 24885 0 1 -900
-box -1158 -260 1158 260
-use pfet_03v3_NQD4M4  XM4
-timestamp 0
-transform 1 0 26261 0 1 -960
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM5
-timestamp 0
-transform 1 0 26757 0 1 -1020
-box -278 -260 278 260
-use nfet_03v3_A2Q5US  XM6
-timestamp 0
-transform 1 0 28133 0 1 -1080
-box -1158 -260 1158 260
-use nfet_03v3_998LMB  XM7
-timestamp 0
-transform 1 0 29509 0 1 -1140
-box -278 -260 278 260
-use nfet_03v3_998LMB  XM8
-timestamp 0
-transform 1 0 30005 0 1 -1200
-box -278 -260 278 260
-use pfet_03v3_BWWA8Z  XM9
-timestamp 0
-transform 1 0 31061 0 1 -1260
-box -838 -260 838 260
-use pfet_03v3_BWWA8Z  XM10
-timestamp 0
-transform 1 0 32677 0 1 -1320
-box -838 -260 838 260
-use pfet_03v3_NQD4M4  XM11
-timestamp 0
-transform 1 0 33733 0 1 -1380
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM12
-timestamp 0
-transform 1 0 34229 0 1 -1440
-box -278 -260 278 260
-use nfet_03v3_PB4KDU  XM13
-timestamp 0
-transform 1 0 11566 0 1 -1916
+use pfet_03v3_KAPG2P  XM9
+timestamp 1783098882
+transform 1 0 19588 0 -1 6020
+box -1398 -266 1398 266
+use nfet_03v3_UDCARV  XM13 primitives
+timestamp 1783041171
+transform 1 0 17048 0 1 5428
 box -838 -310 838 310
-use nfet_03v3_PB4KDU  XM14
-timestamp 0
-transform 1 0 13182 0 1 -1976
+use nfet_03v3_UDCARV  XM14
+timestamp 1783041171
+transform 1 0 17048 0 1 6060
 box -838 -310 838 310
-use pfet_03v3_KH38S7  XM15
-timestamp 0
-transform 1 0 14238 0 1 -1920
-box -278 -426 278 426
-use pfet_03v3_NQD4M4  XM16
-timestamp 0
-transform 1 0 14734 0 1 -2146
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM17
-timestamp 0
-transform 1 0 15230 0 1 -2206
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM18
-timestamp 0
-transform 1 0 15726 0 1 -2266
-box -278 -260 278 260
-use nfet_03v3_998LMB  XM19
-timestamp 0
-transform 1 0 16222 0 1 -2326
-box -278 -260 278 260
-use nfet_03v3_998LMB  XM20
-timestamp 0
-transform 1 0 16718 0 1 -2386
-box -278 -260 278 260
-use nfet_03v3_998LMB  XM21
-timestamp 0
-transform 1 0 17214 0 1 -2446
-box -278 -260 278 260
-use nfet_03v3_998LMB  XM22
-timestamp 0
-transform 1 0 17710 0 1 -2506
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM23
-timestamp 0
-transform 1 0 18206 0 1 -2566
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM24
-timestamp 0
-transform 1 0 18702 0 1 -2626
-box -278 -260 278 260
-use pfet_03v3_NQD4M4  XM25
-timestamp 0
-transform 1 0 19198 0 1 -2686
-box -278 -260 278 260
-use ppolyf_u_1k_UMRU4L  XR1
-timestamp 0
-transform 1 0 23451 0 1 249258
-box -336 -250358 336 250358
-use ppolyf_u_1k_UMRU4L  XR2
-timestamp 0
-transform 1 0 10452 0 1 248192
-box -336 -250358 336 250358
+use ppolyf_u_1k_FPWM3N  XR2
+timestamp 1783041785
+transform 1 0 22346 0 1 1938
+box -14196 -2858 14196 2858
 << labels >>
 flabel metal1 8199 4819 8399 5019 0 FreeSans 1600 0 0 0 vss
 port 3 nsew
