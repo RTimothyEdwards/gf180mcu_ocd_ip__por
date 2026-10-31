@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Run LVS on the gf180mcu 3.3V PoR (por_3v3_selfbiased)
+# Run LVS on the gf180mcu 3.3V PoR (gf180mcu_ocd_ip__por)
 #
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=gf180mcuD} > /dev/null

@@ -3,7 +3,7 @@
  <description/>
  <original-file/>
  <generator>drc: script='/usr/share/pdk/gf180mcuD/libs.tech/klayout/tech/drc/gf180mcu.drc'</generator>
- <top-cell>por_3v3_selfbiased</top-cell>
+ <top-cell>gf180mcu_ocd_ip__por</top-cell>
  <tags>
  </tags>
  <categories>
@@ -1586,30 +1586,6 @@
    </categories>
   </category>
   <category>
-   <name>M1.4</name>
-   <description>M1.4 : Metal1 coverage over the entire die shall be &gt;30%
-                  (Refer to section 13.0 for Dummy Metal fill guidelines.
-                   Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M2.4</name>
-   <description>M2.4 : Metal2 coverage over the entire die shall be &gt;30%
-                  (Refer to section 13.0 for Dummy Metal fill guidelines.
-                   Customer needs to ensure enough dummy metal to satisfy Metal2 coverage) : 30%</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3.4</name>
-   <description>M3.4 : metal3 coverage over the entire die shall be &gt;30%
-                      (Refer to section 13.0 for Dummy Metal fill guidelines.
-                      Customer needs to ensure enough dummy metal to satisfy metal3 coverage) : 30%</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>DF.10</name>
    <description>DF.10 : Min. field area (um2). : 0.26µm²</description>
    <categories>
@@ -1965,6 +1941,12 @@
   <category>
    <name>DV.9</name>
    <description>DV.9 : 3.3V and 5V/6V PMOS cannot be sitting inside same NWELL.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DCF.1a</name>
+   <description>DCF.1a : All area between active polygons (COMP) (with spacing greater than equal to this rule)must be filled with "Dummy COMP" (see exceptions): 20</description>
    <categories>
    </categories>
   </category>
@@ -4728,7 +4710,7 @@
  </categories>
  <cells>
   <cell>
-   <name>por_3v3_selfbiased</name>
+   <name>gf180mcu_ocd_ip__por</name>
    <variant/>
    <layout-name/>
    <references>
@@ -4736,41 +4718,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'M1.4'</category>
-   <cell>por_3v3_selfbiased</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (40.7,-4.6;40.7,62.08;182.71,62.08;182.71,-4.6)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2.4'</category>
-   <cell>por_3v3_selfbiased</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (40.7,-4.6;40.7,62.08;182.71,62.08;182.71,-4.6)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.4'</category>
-   <cell>por_3v3_selfbiased</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (40.7,-4.6;40.7,62.08;182.71,62.08;182.71,-4.6)</value>
-   </values>
-  </item>
  </items>
 </report-database>

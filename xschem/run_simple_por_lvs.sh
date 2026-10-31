@@ -7,12 +7,12 @@
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=gf180mcuD} > /dev/null
 
-project=por_3v3_selfbiased
+project=gf180mcu_ocd_ip__por
 
 sclib=gf180mcu_as_sc_mcu7t3v3
 
 # Extract full layout netlist
-cd ../mag
+cd ../magic
 if [ ! -f ../netlist/layout/${project}.spice ]; then
 magic -dnull -noconsole -rcfile $PDK_ROOT/$PDK/libs.tech/magic/$PDK.magicrc << EOF
 drc off

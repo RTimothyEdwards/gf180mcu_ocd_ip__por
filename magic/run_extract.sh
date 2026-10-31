@@ -4,7 +4,7 @@
 #
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=gf180mcuD} > /dev/null
-project=por_3v3_selfbiased
+project=gf180mcu_ocd_ip__por
 
 echo "Running netlist extraction on ${project}"
 magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc << EOF

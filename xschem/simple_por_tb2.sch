@@ -35,4 +35,4 @@ C {code_shown.sym} -380 130 0 0 {name=s1 only_toplevel=false value=".include /us
 C {lab_wire.sym} -260 -110 0 0 {name=p3 sig_type=std_logic lab=vdd3v3}
 C {devices/opin.sym} 150 -10 0 0 {name=p5 lab=porb}
 C {devices/opin.sym} 150 -30 0 0 {name=p6 lab=por}
-C {por_3v3_selfbiased.sym} -40 -20 0 0 {name=x1}
+C {gf180mcu_ocd_ip__por.sym} -40 -20 0 0 {name=x1}

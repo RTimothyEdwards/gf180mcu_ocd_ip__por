@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p ../netlist/schematic
 
-project=por_3v3_selfbiased
+project=gf180mcu_ocd_ip__por
 
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=gf180mcuD} > /dev/null

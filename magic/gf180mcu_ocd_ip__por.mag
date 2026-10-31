@@ -2411,11 +2411,11 @@ rect 33766 -147 33978 761
 rect 33766 -495 33978 -453
 rect 35020 362 35232 761
 rect 35020 -495 35232 56
-use cap_mim_2p0fF_U8GDWG  cap_mim_2p0fF_U8GDWG_0 primitives
+use cap_mim_2p0fF_U8GDWG  cap_mim_2p0fF_U8GDWG_0 paramcells
 timestamp 1783110992
 transform -1 0 23243 0 1 5430
 box -13003 -4720 14785 5356
-use diode_nd2ps_03v3_E3DKMC  D1 primitives
+use diode_nd2ps_03v3_E3DKMC  D1 paramcells
 timestamp 1783013678
 transform 1 0 9019 0 1 5295
 box -205 -205 205 205
@@ -2431,7 +2431,7 @@ use gf180mcu_as_sc_mcu7t3v3__tap_2  gf180mcu_as_sc_mcu7t3v3__tap_2_0 $PDKPATH/li
 timestamp 1759751540
 transform 1 0 34832 0 -1 6555
 box -86 -86 310 870
-use nfet_03v3_EENGZV  nfet_03v3_EENGZV_0 primitives
+use nfet_03v3_EENGZV  nfet_03v3_EENGZV_0 paramcells
 timestamp 1783098882
 transform 1 0 22668 0 1 5459
 box -1398 -266 1398 266
@@ -2439,7 +2439,7 @@ use nfet_03v3_EENGZV  nfet_03v3_EENGZV_1
 timestamp 1783098882
 transform 1 0 22669 0 -1 6031
 box -1398 -266 1398 266
-use pfet_03v3_HJ4KN5  pfet_03v3_HJ4KN5_0 primitives
+use pfet_03v3_HJ4KN5  pfet_03v3_HJ4KN5_0 paramcells
 timestamp 1783098882
 transform 1 0 25518 0 1 6040
 box -1078 -266 1078 266
@@ -2447,7 +2447,7 @@ use pfet_03v3_HJ4KN5  pfet_03v3_HJ4KN5_1
 timestamp 1783098882
 transform -1 0 25518 0 1 5470
 box -1078 -266 1078 266
-use pfet_03v3_KAPG2P  pfet_03v3_KAPG2P_0 primitives
+use pfet_03v3_KAPG2P  pfet_03v3_KAPG2P_0 paramcells
 timestamp 1783098882
 transform 1 0 19588 0 1 5463
 box -1398 -266 1398 266
@@ -2459,7 +2459,7 @@ use por_amp  por_amp_0
 timestamp 1783037369
 transform 1 0 7740 0 1 6840
 box 1180 -1993 8344 -202
-use ppolyf_u_1k_FPWM3N  ppolyf_u_1k_FPWM3N_0 primitives
+use ppolyf_u_1k_FPWM3N  ppolyf_u_1k_FPWM3N_0 paramcells
 timestamp 1783041785
 transform 1 0 22336 0 1 9558
 box -14196 -2858 14196 2858
@@ -2483,7 +2483,7 @@ use pfet_03v3_KAPG2P  XM9
 timestamp 1783098882
 transform 1 0 19588 0 -1 6020
 box -1398 -266 1398 266
-use nfet_03v3_UDCARV  XM13 primitives
+use nfet_03v3_UDCARV  XM13 paramcells
 timestamp 1783041171
 transform 1 0 17048 0 1 5428
 box -838 -310 838 310

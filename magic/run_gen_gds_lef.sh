@@ -4,7 +4,7 @@
 #
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=gf180mcuD} > /dev/null
-project=por_3v3_selfbiased
+project=gf180mcu_ocd_ip__por
 
 echo "Running GDS and LEF generation on ${project}"
 magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc << EOF
@@ -13,12 +13,12 @@ select top cell
 expand
 select top cell
 gds compress 9
-gds write por_3v3_selfbiased
+gds write ${project}
 select top cell
 lef write -hide
 quit -noprompt
 EOF
 rm -rf extfiles
-mv por_3v3_selfbiased.gds.gz ../gds/
-mv por_3v3_selfbiased.lef ../lef/
+mv ${project}.gds.gz ../gds/
+mv ${project}.lef ../lef/
 echo "Done"

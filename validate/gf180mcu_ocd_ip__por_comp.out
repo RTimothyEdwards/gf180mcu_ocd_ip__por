@@ -181,26 +181,26 @@ out                                                                          |ou
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes por_amp and por_amp are equivalent.
-Flattening unmatched subcell nfet_03v3_UDCARV in circuit por_3v3_selfbiased (1)(2 instances)
-Flattening unmatched subcell ppolyf_u_1k_FPWM3N in circuit por_3v3_selfbiased (1)(2 instances)
-Flattening unmatched subcell diode_nd2ps_03v3_E3DKMC in circuit por_3v3_selfbiased (1)(1 instance)
-Flattening unmatched subcell cap_mim_2p0fF_U8GDWG in circuit por_3v3_selfbiased (1)(1 instance)
-Flattening unmatched subcell pfet_03v3_KAPG2P in circuit por_3v3_selfbiased (1)(2 instances)
-Flattening unmatched subcell pfet_03v3_HJ4KN5 in circuit por_3v3_selfbiased (1)(2 instances)
-Flattening unmatched subcell nfet_03v3_EENGZV in circuit por_3v3_selfbiased (1)(2 instances)
+Flattening unmatched subcell nfet_03v3_UDCARV in circuit gf180mcu_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell ppolyf_u_1k_FPWM3N in circuit gf180mcu_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell diode_nd2ps_03v3_E3DKMC in circuit gf180mcu_ocd_ip__por (1)(1 instance)
+Flattening unmatched subcell cap_mim_2p0fF_U8GDWG in circuit gf180mcu_ocd_ip__por (1)(1 instance)
+Flattening unmatched subcell pfet_03v3_KAPG2P in circuit gf180mcu_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell pfet_03v3_HJ4KN5 in circuit gf180mcu_ocd_ip__por (1)(2 instances)
+Flattening unmatched subcell nfet_03v3_EENGZV in circuit gf180mcu_ocd_ip__por (1)(2 instances)
 
-Removing zero-valued device vsrc from cell por_3v3_selfbiased (0) makes a better match
-Removing zero-valued device vsrc from cell por_3v3_selfbiased (0) makes a better match
-Removing zero-valued device vsrc from cell por_3v3_selfbiased (0) makes a better match
-Removing zero-valued device vsrc from cell por_3v3_selfbiased (0) makes a better match
-Removing zero-valued device vsrc from cell por_3v3_selfbiased (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_ip__por (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_ip__por (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_ip__por (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_ip__por (0) makes a better match
+Removing zero-valued device vsrc from cell gf180mcu_ocd_ip__por (0) makes a better match
 Making another compare attempt.
 
-Class por_3v3_selfbiased (1):  Merged 112 parallel devices.
-Class por_3v3_selfbiased (1):  Merged 198 series devices.
-Class por_3v3_selfbiased (0):  Merged 1 parallel devices.
+Class gf180mcu_ocd_ip__por (1):  Merged 112 parallel devices.
+Class gf180mcu_ocd_ip__por (1):  Merged 198 series devices.
+Class gf180mcu_ocd_ip__por (0):  Merged 1 parallel devices.
 Subcircuit summary:
-Circuit 1: por_3v3_selfbiased                                                |Circuit 2: por_3v3_selfbiased                                                
+Circuit 1: gf180mcu_ocd_ip__por                                              |Circuit 2: gf180mcu_ocd_ip__por                                              
 -----------------------------------------------------------------------------|-----------------------------------------------------------------------------
 nfet_03v3 (46->10)                                                           |nfet_03v3 (10)                                                               
 gf180mcu_as_sc_mcu7t3v3__buff_12 (2)                                         |gf180mcu_as_sc_mcu7t3v3__buff_12 (2)                                         
@@ -218,7 +218,7 @@ Number of nets: 20                                                           |Nu
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: por_3v3_selfbiased                                                |Circuit 2: por_3v3_selfbiased                                                
+Circuit 1: gf180mcu_ocd_ip__por                                              |Circuit 2: gf180mcu_ocd_ip__por                                              
 -----------------------------------------------------------------------------|-----------------------------------------------------------------------------
 por_unbuf                                                                    |por_unbuf                                                                    
 por                                                                          |por                                                                          
@@ -228,7 +228,7 @@ vdd3v3                                                                       |vd
 vss                                                                          |vss                                                                          
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes por_3v3_selfbiased and por_3v3_selfbiased are equivalent.
+Device classes gf180mcu_ocd_ip__por and gf180mcu_ocd_ip__por are equivalent.
 
 Final result: Circuits match uniquely.
 .

@@ -4,9 +4,9 @@ if {[catch {set PDK_ROOT $::env(PDK_ROOT)}]} {set PDK_ROOT /usr/share/pdk}
 if {[catch {set PDK $::env(PDK)}]} {set PDK gf180mcuD}
 
 set circuit2 [readnet spice ${PDK_ROOT}/${PDK}/libs.ref/gf180mcu_as_sc_mcu7t3v3/spice/gf180mcu_as_sc_mcu7t3v3.spice]
-readnet spice ../netlist/schematic/por_3v3_selfbiased.spice $circuit2
+readnet spice ../netlist/schematic/gf180mcu_ocd_ip__por.spice $circuit2
 
-set circuit1 [readnet spice ../netlist/layout/por_3v3_selfbiased.spice]
+set circuit1 [readnet spice ../netlist/layout/gf180mcu_ocd_ip__por.spice]
 
-lvs "$circuit1 por_3v3_selfbiased" "$circuit2 por_3v3_selfbiased" \
-${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl por_3v3_selfbiased_comp.out
+lvs "$circuit1 gf180mcu_ocd_ip__por" "$circuit2 gf180mcu_ocd_ip__por" \
+${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl gf180mcu_ocd_ip__por_comp.out

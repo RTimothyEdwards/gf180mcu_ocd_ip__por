@@ -1,4 +1,4 @@
-* NGSPICE file created from por_3v3_selfbiased.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_ocd_ip__por.ext - technology: gf180mcuD
 
 .subckt nfet_03v3_UDCARV a_268_n100# a_364_n192# a_428_n100# a_n52_n100# a_524_n192#
 + a_n814_n286# a_n116_n192# a_588_n100# a_n212_n100# a_n276_n192# a_n372_n100# a_44_n192#
@@ -454,7 +454,7 @@ X13 a_188_n50# a_124_n142# a_28_n50# a_n1374_n242# nfet_03v3 ad=0.13p pd=1.02u a
 X14 a_668_n50# a_604_n142# a_508_n50# a_n1374_n242# nfet_03v3 ad=0.13p pd=1.02u as=0.13p ps=1.02u w=0.5u l=0.28u
 .ends
 
-.subckt por_3v3_selfbiased vdd3v3 ena por_unbuf vss porb por
+.subckt gf180mcu_ocd_ip__por vdd3v3 ena por_unbuf vss porb por
 XXM14 por_amp_0/nbias por_amp_0/inn por_amp_0/inn por_amp_0/nbias por_amp_0/inn vss
 + por_amp_0/inn por_amp_0/nbias por_amp_0/inn por_amp_0/inn por_amp_0/nbias por_amp_0/inn
 + por_amp_0/inn por_amp_0/inn por_amp_0/inn por_amp_0/inn por_amp_0/nbias por_amp_0/inn

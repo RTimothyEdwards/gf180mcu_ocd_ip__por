@@ -990,11 +990,11 @@ rect 6513 -1445 6703 -1383
 rect 6833 -1445 7023 -1383
 rect 7153 -1445 7343 -1383
 rect 7473 -1445 7784 -1383
-use nfet_03v3_J6SUXX  nfet_03v3_J6SUXX_0 primitives
+use nfet_03v3_J6SUXX  nfet_03v3_J6SUXX_0 paramcells
 timestamp 1783037369
 transform 1 0 5648 0 1 -1419
 box -2278 -310 2278 310
-use pfet_03v3_C7VN8M  pfet_03v3_C7VN8M_0 primitives
+use pfet_03v3_C7VN8M  pfet_03v3_C7VN8M_0 paramcells
 timestamp 1783028899
 transform -1 0 2378 0 1 -1420
 box -838 -310 838 310
@@ -1002,7 +1002,7 @@ use pfet_03v3_C7VN8M  XM2
 timestamp 1783028899
 transform -1 0 2378 0 1 -780
 box -838 -310 838 310
-use nfet_03v3_J6SUXM  XM4 primitives
+use nfet_03v3_J6SUXM  XM4 paramcells
 timestamp 1783037369
 transform -1 0 5648 0 1 -779
 box -2278 -310 2278 310

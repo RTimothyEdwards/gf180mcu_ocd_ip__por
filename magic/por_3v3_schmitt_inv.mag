@@ -173,7 +173,7 @@ rect 3788 -1178 4280 -1169
 rect 3788 -1243 3812 -1178
 rect 4262 -1243 4280 -1178
 rect 3788 -1251 4280 -1243
-use nfet_03v3_3DMKYT  nfet_03v3_3DMKYT_0 primitives
+use nfet_03v3_3DMKYT  nfet_03v3_3DMKYT_0 paramcells
 timestamp 1783039904
 transform 1 0 2948 0 -1 -989
 box -358 -261 358 261
@@ -181,19 +181,19 @@ use nfet_03v3_3DMKYT  XM1
 timestamp 1783039904
 transform 1 0 2352 0 -1 -989
 box -358 -261 358 261
-use pfet_03v3_9U7ATZ  XM2 primitives
+use pfet_03v3_9U7ATZ  XM2 paramcells
 timestamp 1783111907
 transform -1 0 3194 0 1 -209
 box -278 -261 278 271
-use pfet_03v3_VR43ZA  XM3 primitives
+use pfet_03v3_VR43ZA  XM3 paramcells
 timestamp 1783111907
 transform -1 0 2518 0 1 -209
 box -518 -261 518 271
-use nfet_03v3_45Z7NE  XM5 primitives
+use nfet_03v3_45Z7NE  XM5 paramcells
 timestamp 1783039904
 transform 0 1 3972 1 0 -946
 box -306 -786 306 786
-use pfet_03v3_W2ZTV7  XM6 primitives
+use pfet_03v3_W2ZTV7  XM6 paramcells
 timestamp 1783112130
 transform 0 1 3838 1 0 -214
 box -306 -486 306 496

@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO por_3v3_selfbiased
+MACRO gf180mcu_ocd_ip__por
   CLASS BLOCK ;
-  FOREIGN por_3v3_selfbiased ;
+  FOREIGN gf180mcu_ocd_ip__por ;
   ORIGIN -40.700 4.600 ;
   SIZE 142.010 BY 66.680 ;
   PIN vdd3v3
@@ -82,6 +82,6 @@ MACRO por_3v3_selfbiased
       LAYER Metal5 ;
         RECT 42.290 -2.475 180.230 59.975 ;
   END
-END por_3v3_selfbiased
+END gf180mcu_ocd_ip__por
 END LIBRARY
 
