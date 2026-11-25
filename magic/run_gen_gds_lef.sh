@@ -15,6 +15,18 @@ select top cell
 gds compress 9
 gds write ${project}
 select top cell
+port vdd3v3 class inout
+port vdd3v3 use  power
+port vss class inout
+port vss use ground
+port ena class input
+port ena use signal
+port por class output
+port por use signal
+port porb class output
+port porb use signal
+port por_unbuf class output
+port por_unbuf use signal
 lef write -hide
 quit -noprompt
 EOF
